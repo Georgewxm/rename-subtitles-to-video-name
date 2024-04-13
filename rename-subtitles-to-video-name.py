@@ -20,7 +20,7 @@ def rename_and_move_largest_srt(base_dir, languages, dry_run=False, videos=None)
     Returns:
         None
     """
-    subs_dir = os.path.join(base_dir, 'Subs')
+    subs_dir = os.path.join(base_dir, 'Subs')``
     if not os.path.exists(subs_dir):
         logging.error("The 'Subs' folder does not exist in the provided directory.")
         return
